@@ -1,0 +1,31 @@
+.student {
+    display: flex;
+    flex-direction: column;
+    min-width: 400px;
+}
+
+.studentBox {
+    font-family: sans-serif;
+    text-align: center;
+    border: 1px solid grey;
+    margin-bottom: 20px;
+    padding: 0px 5px;
+    line-height: 0.6;
+    border-radius: 5px;
+}
+
+.nameColor {
+    color: #daa520;
+}
+
+.ageColor {
+    color:  #4682b4;
+}
+
+.courseColor {
+    color: maroon;
+}
+
+.notFound {
+    color: red;
+}

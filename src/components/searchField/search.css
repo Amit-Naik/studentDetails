@@ -1,0 +1,15 @@
+.search {
+    font-family: sans-serif;
+}
+
+.searchInput {
+    line-height: 1.6;
+    margin-bottom: 16px;
+    border-radius: 5px;
+    text-align: center;
+    min-width: 300px;
+}
+
+input::placeholder {
+    font-weight: 200;
+}
