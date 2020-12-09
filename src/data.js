@@ -22,11 +22,5 @@ export let students = [
       age: 22,
       course: "maths, english, hindi",
       id: 4
-    },
-    {
-      name: "Sham",
-      age: 22,
-      course: "kannada, english, hindi",
-      id: 5
     }
   ];
