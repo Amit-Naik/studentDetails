@@ -6,7 +6,7 @@ export default function Students({ value }) {
   let studentsList = students;
 
   if (value) {
-    studentsList = students.filter((student) => student.name.includes(value));
+    studentsList = students.filter((student) => student.name.toLocaleLowerCase().includes(value.toLocaleLowerCase()));
   }
 
   return (
